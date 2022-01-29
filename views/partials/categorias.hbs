@@ -1,0 +1,16 @@
+<!--Inicio sección Categorías-->
+    <section class="categorias">
+        <div class="contenedor">    
+            <h2 class="texto-centro">Categorías</h2>
+            {{#each categoria}}
+            <a href="#">
+                <div class="caja-3 contenedor-flotante">
+                    <img src={{img}} alt={{nombre}} class="img-responsive img-redondeado">
+                    <h3 class="texto-blanco texto-flotante">{{nombre}}</h3>
+                </div>
+            </a>
+            {{/each}}
+            <div class="limpiar"></div>
+        </div>
+    </section>
+    <!--fin sección Categorías-->
